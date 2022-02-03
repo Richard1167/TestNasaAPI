@@ -55,7 +55,37 @@
 
                 android:layout_marginTop="8dp"/>
 
+            <ImageView
+                android:id="@+id/earthIV"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/datatestTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:lineSpacingExtra="6dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                tools:text="hyfhefbkewfbkwref"
+
+                android:layout_marginTop="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/NextB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="NEXT"
+                android:background="#0D2287" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
+
+
 
     </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
